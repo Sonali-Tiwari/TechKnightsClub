@@ -884,7 +884,8 @@ font-family: 'SF Pro Display', sans-serif;
     }
 
     input{
-        font-size: 1em;
+        padding: 18px 5px;
+        font-size: 10px;
         margin: 12px 0;
     }
     #join-text{
