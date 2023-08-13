@@ -885,7 +885,7 @@ font-family: 'SF Pro Display', sans-serif;
 
     input{
         font-size: 1em;
-        margin: 12px auto;
+        margin: 12px 0;
     }
     #join-text{
         font-size: 1.2em;
@@ -907,8 +907,8 @@ font-family: 'SF Pro Display', sans-serif;
     }
     #join-text{
         font-size: 1.2em;
-        width: 200px;
-        height: 80px;
+        /* width: 200px; */
+        /* height: 80px; */
     }
     .checkbox span{
         font-size: 1.3em;
