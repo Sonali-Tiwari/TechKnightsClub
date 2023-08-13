@@ -108,11 +108,10 @@ nav{
         transform:translateY(-8px) rotate(-45deg)
     }
     .stay{
-        margin: 23px;
-
+        margin-top: 23px;
         display: flex;
         flex-direction: column;
-        font-size: 1.7em;
+        font-size: 1.2em;
         color: #fff;
         align-items: center;
         text-align: center;
@@ -124,8 +123,9 @@ nav{
         /* align-items: center; */
     }
     .connections svg{
-         height: 2em;
-         width: 2em;
+        padding: 1px;
+         height: 1.7em;
+         width: 1.7em;
     }
     .h-icon{
         padding: 7px;
@@ -156,14 +156,14 @@ nav{
      }
      .header img{
 
-       width: 250px;
-       height: 70px;
+       width: 150px;
+       height: 50px;
      }
      .header .box{
         margin-top: 0px;
         padding: 3px;
-        height: 40px;
-        width: 40%;
+        height: 100vh;
+        width: 30%;
         color: black;
      }
      .box a{
@@ -173,12 +173,12 @@ nav{
      .head-btn {
         display: flex;
         justify-content: space-between;
-        margin: 12px 12px;
+        margin: 12px 2px;
      }
      .head-btn a img{
         padding: 3px;
           width: 100%;
-          height: 50px;
+          height: 40px;
      }
      
     .header .navmenu{
@@ -196,7 +196,7 @@ nav{
     } 
     .navitem{
         color: white;
-        font-size: 1.8em;
+        font-size: 1.2em;
         text-transform: uppercase;
         font-weight: 520px;
         font-family: 'SF Pro Display', sans-serif;  
@@ -322,7 +322,40 @@ color: rgba(255, 255, 255, 0.5);
         display: none;
     }
 }
-
+@media only screen and (max-width:400px){
+    .hero{
+        /* margin-bottom: 100px; */
+    }
+    .text{
+        /* margin-top: 10vh; */
+    }
+    .text h1{
+        font-family: 'SF Pro Display', sans-serif;  
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(255, 255, 255,1);
+        }
+        .text p{
+            font-family: 'SF Pro Display', sans-serif;        
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            
+            }
+            .box{
+                /* /* box-shadow: 0px */
+                
+                width: 157px;
+                height: 40px;
+            }
+            .box a{
+                padding: 2px;
+                font-size: 2em;
+            }
+            /* About section. */
+}
 
 
 
@@ -461,6 +494,21 @@ justify-content: center;
         width: 40vw;
     }
 }
+    @media only screen and (max-width:400px){
+        .about h1{
+            font-size: 3em;
+        }
+        .about .text-box{
+            width: 100%;
+        }
+        .about-box-text p{
+            font-size: 1em;
+        }
+        .about-box-text h2{
+            font-size: 1.2em;
+        }
+    }
+
 
 
 
@@ -546,6 +594,8 @@ justify-content: center;
     /* padding: 5px; */
 }
 .things_box img{
+    /* height: 800px; */
+    /* width: 500px; */
     display: block;
     /* width: 100%; */
     /* margin-top: 20px; */
@@ -572,6 +622,11 @@ justify-content: center;
 {
     .things_do_box{
         padding: 0 50px;
+    }
+}
+@media only screen and (max-width:400px){
+    .things_do h1{
+        font-size: 2em;
     }
 }
 
@@ -608,7 +663,7 @@ justify-content: center;
 .button_box .num:hover{
     border: 2px solid #fff;
 }
-                         
+  
 
                           /* OUR FAMILY */
 
@@ -695,7 +750,14 @@ border-radius: 22px
 .family-box img:hover{
 
 }
-
+@media only screen and (max-width:400px){
+.family h1{
+    font-size: 2.5em;
+}
+.family .fam-p{
+    font-size: 1.5em;
+}
+}
                  /* JOIN US SECTION */
 
 
@@ -766,6 +828,7 @@ color: rgba(255, 255, 255, 0.5);
     /* text-align: center; */
 }
 #join-text{
+ 
     border-radius: 8px;
     padding: 19px;
     /* font-family: 'Fira Sans', sans-serif; */
@@ -822,12 +885,35 @@ font-family: 'SF Pro Display', sans-serif;
 
     input{
         font-size: 1em;
+        margin: 12px auto;
     }
     #join-text{
         font-size: 1.2em;
         /* width: 4 */
         /* height:  */
     }
+}
+@media only screen and (max-width:400px){
+
+    .join_box h1{
+        font-size: 3em;
+    }
+    .join_box p{
+        font-size: 1.5em;
+    }
+    input{
+
+        font-size:14px;
+    }
+    #join-text{
+        font-size: 1.2em;
+        width: 200px;
+        height: 80px;
+    }
+    .checkbox span{
+        font-size: 1.3em;
+    }
+
 }
 
 
@@ -1065,4 +1151,13 @@ footer h4{
         margin-bottom: 12px;
     }
 
+}
+@media only screen and (max-width:460px){
+    .cont-online h4{
+        font-size: 1.2em;
+    }
+    .cont-online p{
+        font-size: 1.2em;
+        line-height: 1.7;
+    }
 }
