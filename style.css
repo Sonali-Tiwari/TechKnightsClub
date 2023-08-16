@@ -1147,7 +1147,7 @@ footer h4{
        text-align: right;
     }
     .cont-connection .cont_imge svg{
-        padding: 2px;
+        padding: 4px;
        text-align: right;
         height: 3em;
         width: 3em;
@@ -1221,7 +1221,7 @@ footer h4{
                 /* font-weight: 500px; */
         }
         .cont-meet h3{
-            padding-top: 35px;
+            /* padding-top: 35px; */
             line-height: 2;
             font-size: 1.2em;
             font-family: 'SF Pro Display', sans-serif;
@@ -1232,6 +1232,15 @@ footer h4{
         }
 }
 @media only screen and (max-width:560px){
+
+    .cont-offline{
+        height: 40%;
+        width: 50%;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     .cont-online h4{
         font-size: 1em;
     }
@@ -1245,13 +1254,13 @@ footer h4{
         width: 150px;
     }
     .contact-us .cont-offline .cont-logo p{
-            /* text-align: center; */
+            text-align: center;
             font-size: 0.8em;
             font-family: 'SF Pro Display', sans-serif;
             /* font-weight: 500px; */
     }
     .cont-meet h3{
-        margin-top: 35px;
+        /* margin-top: 35px; */
         line-height: 2;
         font-size: 1em;
         font-family: 'SF Pro Display', sans-serif;

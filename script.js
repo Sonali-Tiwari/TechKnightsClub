@@ -53,10 +53,10 @@ num2.addEventListener('click',()=>{
     // slider.scrollLeft=slide.scrollWidth
 })
 num3.addEventListener('click',()=>{
-    slider.scrollLeft =950
+    slider.scrollLeft =900
 })
 num4.addEventListener('click',()=>{
-    slider.scrollLeft =1300
+    slider.scrollLeft =1270
 })
 num5.addEventListener('click',()=>{
     slider.scrollLeft =2000
