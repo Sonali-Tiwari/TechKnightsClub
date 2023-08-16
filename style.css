@@ -627,10 +627,11 @@ justify-content: center;
 }
 @media only screen and (max-width:400px){
     .things_do h1{
-        font-size: 2em;
+        font-size: 2.2em;
     }
-    h2{
-        font-size: 1.7em;
+    .thing_text{
+        padding-top: 3px;
+        font-size: 1.6em;
     }
 
 }
@@ -757,7 +758,7 @@ border-radius: 22px
 }
 @media only screen and (max-width:400px){
 .family h1{
-    font-size: 3em;
+    font-size: 2.2em;
 }
 .family .fam-p{
     font-size: 1.5em;
@@ -902,24 +903,24 @@ font-family: 'SF Pro Display', sans-serif;
 @media only screen and (max-width:400px){
 
     .join_box h1{
-        font-size: 3em;
+        font-size: 2.2em;
     }
     .join_box p{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     input{
-
-        font-size:14px;
+        width: 100%;
+        font-size:16px;
     }
     #join-text{
-        font-size: 1.2em;
+        font-size: 16px;
         /* width: 200px; */
         /* height: 80px; */
     }
     .checkbox span{
         font-size: 1.3em;
     }
-
+   
 }
 
 
