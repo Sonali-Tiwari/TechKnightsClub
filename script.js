@@ -74,9 +74,63 @@ const num2=document.querySelector('.n-2')
 const num3=document.querySelector('.n-3')
 const num4=document.querySelector('.n-4')
 const num5=document.querySelector('.n-5')
+
+if(window.screen.width <= 400){
+    num1.addEventListener("click",()=>{
+        slider.scrollLeft=80
+    })
+    
+    
+    num2.addEventListener('click',()=>{
+        slider.scrollLeft =450
+        // slider.scrollLeft=slide.scrollWidth
+    })
+    num3.addEventListener('click',()=>{
+        slider.scrollLeft =880
+        // slider.scrollLeft=slide.scrollWidth
+    })
+    num4.addEventListener('click',()=>{
+        slider.scrollLeft =1250
+        // slider.scrollLeft=slide.scrollWidth
+    })
+    num5.addEventListener('click',()=>{
+        slider.scrollLeft =1650
+        // slider.scrollLeft=slide.scrollWidth
+    })
+    
+    
+}
+else{
+
+if(window.screen.width <= 1060){
+
+
+
 num1.addEventListener("click",()=>{
+    slider.scrollLeft=100
 })
 
+
+num2.addEventListener('click',()=>{
+    slider.scrollLeft =480
+    // slider.scrollLeft=slide.scrollWidth
+})
+num3.addEventListener('click',()=>{
+    slider.scrollLeft =900
+    // slider.scrollLeft=slide.scrollWidth
+})
+num4.addEventListener('click',()=>{
+    slider.scrollLeft =1550
+    // slider.scrollLeft=slide.scrollWidth
+})
+num5.addEventListener('click',()=>{
+    slider.scrollLeft =2000
+    // slider.scrollLeft=slide.scrollWidth
+})
+
+}
+
+else{
 num1.addEventListener('click',()=>{
     slider.scrollLeft =60
     // Box1.class.toggle("actives")
@@ -84,21 +138,24 @@ num1.addEventListener('click',()=>{
 
 })
 num2.addEventListener('click',()=>{
-    slider.scrollLeft =500
+    slider.scrollLeft =480
     // slider.scrollLeft=slide.scrollWidth
 })
 num3.addEventListener('click',()=>{
-    slider.scrollLeft =900
+    slider.scrollLeft =870
+    // slider.scrollLeft=slide.scrollWidth
 })
 num4.addEventListener('click',()=>{
-    slider.scrollLeft =1270
+    slider.scrollLeft =1200
+    // slider.scrollLeft=slide.scrollWidth
 })
 num5.addEventListener('click',()=>{
     slider.scrollLeft =2000
+    // slider.scrollLeft=slide.scrollWidth
 })
 
-
-
+}
+}
 // Our Family
 
 
