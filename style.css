@@ -567,7 +567,7 @@ justify-content: center;
        /* background: linear-gradient(0deg, #FF0000, #FF0000); */
        /* background:(0deg, rgba(255, 0, 0, 0.25), rgba(255, 0, 0, 0.25)); */
        /* border: 1px solid rgba(255, 0, 0, 1); */
-       width: 100vw;
+       /* width: 100vw; */
    height: 50vh;
    /* padding: 15px; */
    margin: 8px 12px;
@@ -597,10 +597,12 @@ justify-content: center;
 .things_box img{
     /* height: 100%; */
     /* width: 100%; */
+   /* overflow: hidden; */
     display: block;
     /* width: 100%; */
     /* margin-top: 20px; */
     overflow: hidden;
+    padding: 12px;
     transition: 1s ease;
     
 }
@@ -632,6 +634,17 @@ justify-content: center;
     .thing_text{
         padding-top: 3px;
         font-size: 1.6em;
+    }
+    .things_do_box{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .things_box{
+        padding-left: 0px;
+    }
+    .things_box img{
+        width: 100vw;
+        height: 100vh;
     }
 
 }
@@ -762,6 +775,7 @@ border-radius: 22px
 }
 .family .fam-p{
     font-size: 1.5em;
+    padding-bottom: 5px;
 }
 }
                  /* JOIN US SECTION */
