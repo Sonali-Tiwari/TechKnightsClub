@@ -901,7 +901,7 @@ font-family: 'SF Pro Display', sans-serif;
     }
 }
 @media only screen and (max-width:400px){
-
+     
     .join_box h1{
         font-size: 2.2em;
     }
@@ -917,6 +917,7 @@ font-family: 'SF Pro Display', sans-serif;
         /* width: 200px; */
         /* height: 80px; */
     }
+
     .checkbox span{
         font-size: 1.3em;
     }

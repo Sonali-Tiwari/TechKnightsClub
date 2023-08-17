@@ -20,18 +20,53 @@ e.addEventListener("click",()=>{
         Header.classList.remove("active")
     }))
 
-// Things we do section
+const HamburgerJoinBtn=document.querySelector(".hamb-join")
+HamburgerJoinBtn.addEventListener("click",()=>{
+    Hamburger.classList.remove("active")
+    Header.classList.remove("active")
+})
+
+    //Link Scroller
+
+    scrollTo=(element)=>{
+        window.scroll({
+            behavior:'smooth',
+            left:0,
+            top:element.offsetTop
+        })
+        console
+    }
+//    const Link1=document.querySelector('.link-5').addEventListener('click', ()=> {scrollTo(document.querySelector('.about'))
+    // })  
+
+
+    // const Link2=document.querySelector('.link-5').addEventListener('click', ()=> {scrollTo(document.querySelector('.about'))
+//  })  
+
+ const Link3=document.querySelector('.link-3').addEventListener('click', ()=> {scrollTo(document.querySelector('.about'))
+ })  
+
+ const Link4=document.querySelector('.link-4').addEventListener('click', ()=> {scrollTo(document.querySelector('.things_do'))
+ })  
+
+ const Link5=document.querySelector('.link-5').addEventListener('click', ()=> {scrollTo(document.querySelector('.family'))
+ })  
 
 
 
-// const Box1=document.getElementsByClassName('1')
-// const Box2=document.getElementsByClassName('2')
-// const Box3=document.getElementsByClassName('3')
-// const Box4=document.getElementsByClassName('4')
-// const Box5=document.getElementsByClassName('5')
-// const Box1=document.querySelector('.box1')
+ const NavAboutLink=document.querySelector('.nav-about').addEventListener('click', ()=> {scrollTo(document.querySelector('.about'))
+})  
 
 
+
+ //Join Button Scroller
+ 
+ const HambJoinButton=document.querySelector('.hamb-join').addEventListener('click', ()=> {scrollTo(document.querySelector('.joi'))
+ })  
+
+ const JoinButton=document.querySelector('.nav-Btn').addEventListener('click', ()=> {scrollTo(document.
+    querySelector('.joi'))
+    })  
 
 
 const num1=document.querySelector('.n-1')
