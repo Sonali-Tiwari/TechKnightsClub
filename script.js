@@ -86,7 +86,7 @@ if(window.screen.width <= 400){
         // slider.scrollLeft=slide.scrollWidth
     })
     num3.addEventListener('click',()=>{
-        slider.scrollLeft =880
+        slider.scrollLeft =850
         // slider.scrollLeft=slide.scrollWidth
     })
     num4.addEventListener('click',()=>{
@@ -94,7 +94,7 @@ if(window.screen.width <= 400){
         // slider.scrollLeft=slide.scrollWidth
     })
     num5.addEventListener('click',()=>{
-        slider.scrollLeft =1650
+        slider.scrollLeft =1639
         // slider.scrollLeft=slide.scrollWidth
     })
     
